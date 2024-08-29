@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<username>.github.io/portfolio",
+  "homepage": "https://Natyraa.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
