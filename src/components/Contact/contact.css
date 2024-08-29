@@ -11,10 +11,10 @@
   @apply pt-3 
 }
 .input-item input {
-  @apply w-[500px] mt-3 mb-3 p-1 flex  bg-[#ccd6f6] text-black
+  @apply w-[400px] sm:w-[400px] md:w-[500px] mt-3 mb-3 p-1 flex  bg-[#ccd6f6] text-black
 }
 .input-item textarea {
-  @apply w-[500px] mt-3 mb-3 p-1 flex  bg-[#ccd6f6] resize-none text-black
+  @apply w-[400px] sm:w-[400px] md:w-[500px] mt-3 mb-3 p-1 flex  bg-[#ccd6f6] resize-none text-black
 }
 .input-item button {
   @apply text-white w-full border-2 py-2 px-5 hover:bg-[#ff3131]  hover:border-[#ff3131] 

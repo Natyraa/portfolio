@@ -19,8 +19,8 @@ const Contact = () => {
           <p>Submit the form below or send me an email via natyraa1998@gmail.com</p>
         
     
-       <div className='input-item'>
-          <input type="text" placeholder='Name' name="name" value={formData.name} onChange={handleOnChange}></input>
+       <div className='input-item' >
+          <input type="text" placeholder='Name' name="name" value={formData.name} onChange={handleOnChange} ></input>
           <input type="email" placeholder='Email' name="email" value={formData.email} onChange={handleOnChange}></input>
           <textarea name="message" rows="10" placeholder='Message' value={formData.message} onChange={handleOnChange}></textarea>
           <button >Let's collaborate</button>
