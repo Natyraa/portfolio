@@ -1,0 +1,22 @@
+
+.skills-container {
+  @apply bg-[#0a192f]  mx-auto p-4 flex flex-col justify-center w-full h-screen  text-gray-300 ;
+}
+.experience-container {
+ @apply flex justify-center items-start md:items-center  flex-col
+}
+.experience-container h1 {
+  @apply text-4xl font-bold border-b-4  border-b-[#ff3131] py-2  inline
+}
+.experience-container p {
+  @apply py-4 
+}
+.image-container {
+  @apply w-full grid grid-cols-3  sm:grid-cols-6 gap-4 text-center py-4 mb-3
+}
+.image-container  img{
+  @apply w-20 mx-auto mb-1
+}
+.image-container p {
+  @apply mt-3
+}

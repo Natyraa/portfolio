@@ -1,0 +1,51 @@
+
+.work-container {
+  @apply bg-[#0a192f] w-full md:h-screen text-gray-300 mx-auto flex flex-col justify-center md:items-center;
+}
+
+
+.text-par {
+  @apply flex justify-center items-start md:items-center flex-col ml-3 md:ml-0;
+}
+
+.text-par h1 {
+  @apply py-2 text-4xl font-bold inline border-b-4 border-b-[#ff3131];
+}
+
+.text-par p {
+  @apply py-6;
+}
+
+.card-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 p-4;
+}
+
+
+.cart-item {
+  @apply rounded-md flex flex-col items-center justify-between bg-white text-black cursor-pointer overflow-hidden;
+  @apply w-[20rem] h-[21rem] sm:w-[20rem] sm:h-[20rem] md:w-[18rem] md:h-[18rem] lg:w-[15rem] lg:h-[21rem] m-5;
+}
+
+
+.paragraph {
+  @apply text-center rounded-lg px-4 py-3 m-2 text-gray-900 text-xl font-extrabold;
+}
+
+
+.button {
+  @apply text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#0a192f] hover:text-gray-300;
+}
+
+
+.description {
+  @apply p-3 hidden font-extrabold;
+}
+
+
+.cart-item:hover .paragraph {
+  @apply hidden;
+}
+
+.cart-item:hover .description {
+  @apply block;
+}

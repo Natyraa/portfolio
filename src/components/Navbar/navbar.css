@@ -1,0 +1,27 @@
+.nav-container {
+  @apply fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300;
+}
+.logo-img {
+  @apply w-[70px];
+}
+.menu-list {
+  @apply hidden md:flex 
+}
+.hamburger-menu {
+  @apply md:hidden z-10 cursor-pointer
+}
+.mobile-menu {
+  @apply absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-gray-300 flex flex-col justify-center items-center
+}
+.mobile-menu li {
+  @apply py-6 text-4xl
+}
+.social-list {
+  @apply hidden lg:flex fixed flex-col top-[35%] left-0;
+}
+.social-list li {
+  @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300
+}
+.social-list a{
+ @apply flex justify-between items-center w-full text-gray-300
+}
