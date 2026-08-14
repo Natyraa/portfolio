@@ -1,24 +1,41 @@
 import React from 'react';
 import './about.css'
+
 const About = () => {
   return (
-    <div name='about' className='about-container '>
-        <div className='about-div'>
-          <div className='sm:text-right pb-8 pl-4'>
+    <section name="about" className="about-container">
+      <div className="section-shell">
+        <p className="section-kicker">About me</p>
+        <div className="about-grid">
+          <div>
+            <h2 className="section-title">
+              Turning ideas into useful, polished products.
+            </h2>
+          </div>
+          <div className="about-copy">
             <p>
-              About
+              I’m Natyra, a frontend developer who enjoys transforming
+              thoughtful ideas into fast and intuitive web experiences.
+            </p>
+            <p>
+              My work combines clean React architecture, responsive interfaces,
+              and close attention to the small details that make a product feel
+              effortless to use.
+            </p>
+            <p>
+              I’m always learning, experimenting, and looking for opportunities
+              to collaborate on meaningful digital products.
             </p>
           </div>
-          </div>
-          <div className='text-paragraph'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Natyra Arifi, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>With a software expert readily available, I focus on developing impactful solutions that elevate user experiences, serving a diverse clientele from individual entrepreneurs to major corporations, all driven by a passion for excellence in software development.</p>  
-            </div>
-          </div>
-    </div>
+        </div>
+
+        <div className="about-stats">
+          <div><strong>04</strong><span>Focused projects</span></div>
+          <div><strong>Perf</strong><span>Virtualized UI</span></div>
+          <div><strong>A11y</strong><span>Design system</span></div>
+        </div>
+      </div>
+    </section>
   );
 };
 
