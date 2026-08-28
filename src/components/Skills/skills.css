@@ -59,6 +59,13 @@
   object-fit: contain;
 }
 
+.skill-icon strong {
+  color: var(--accent);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+}
+
 .skill-card p {
   margin-top: 1rem;
   font-family: "Space Grotesk", sans-serif;
@@ -105,5 +112,55 @@
 @media (hover: none) {
   .skill-card:hover {
     transform: none;
+  }
+}
+
+.practices-block {
+  margin-top: clamp(2.5rem, 6vw, 4rem);
+  padding-top: clamp(2rem, 4vw, 2.75rem);
+  border-top: 1px solid var(--border);
+}
+
+.practices-heading h3 {
+  margin-top: 0.55rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  letter-spacing: -0.03em;
+}
+
+.practices-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin-top: 1.35rem;
+}
+
+.practice-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.15rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(17, 25, 40, 0.55);
+}
+
+.practice-card p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.02rem;
+  font-weight: 600;
+}
+
+.practice-card > div > span {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .practices-grid {
+    grid-template-columns: 1fr;
   }
 }

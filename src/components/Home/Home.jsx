@@ -17,11 +17,11 @@ const Home = () => {
         <p className="hero-eyebrow">Hello, I’m</p>
         <h1>Natyra Arifi.</h1>
         <h2>
-          I build thoughtful <span>digital experiences.</span>
+          I build fast, accessible <span>React experiences.</span>
         </h2>
         <p className="hero-copy">
-          Frontend developer focused on crafting responsive, accessible, and
-          engaging web applications with JavaScript and React.
+          Frontend developer specializing in React 19, TypeScript, performance,
+          accessibility, and well-tested user interfaces.
         </p>
 
         <div className="hero-actions">

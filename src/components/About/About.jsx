@@ -14,25 +14,26 @@ const About = () => {
           </div>
           <div className="about-copy">
             <p>
-              I’m Natyra, a frontend developer who enjoys transforming
-              thoughtful ideas into fast and intuitive web experiences.
+              I’m Natyra, a frontend developer focused on building fast,
+              intuitive, and inclusive web experiences.
             </p>
             <p>
-              My work combines clean React architecture, responsive interfaces,
-              and close attention to the small details that make a product feel
-              effortless to use.
+              My recent work explores large-list performance, reusable component
+              architecture, keyboard accessibility, and testable business logic
+              with React and TypeScript.
             </p>
             <p>
-              I’m always learning, experimenting, and looking for opportunities
-              to collaborate on meaningful digital products.
+              I care about choosing the right tool for the problem—whether that
+              means React 19 for complex interfaces or focused vanilla
+              JavaScript for a smaller product.
             </p>
           </div>
         </div>
 
         <div className="about-stats">
           <div><strong>04</strong><span>Focused projects</span></div>
-          <div><strong>Perf</strong><span>Virtualized UI</span></div>
-          <div><strong>A11y</strong><span>Design system</span></div>
+          <div><strong>React</strong><span>Performance engineering</span></div>
+          <div><strong>UI</strong><span>Accessible by design</span></div>
         </div>
       </div>
     </section>

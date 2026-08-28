@@ -1,7 +1,7 @@
 import crateExplorerImg from "../assets/crate-explorer.png";
 import componentLabImg from "../assets/component-lab.png";
 import libraryLedgerImg from "../assets/library-ledger.png";
-import image3 from "../assets/bg3.jpeg";
+import logicLabImg from "../assets/logic-lab.png";
 
 export const data = [
   {
@@ -13,7 +13,7 @@ export const data = [
     stack: ["React 19", "TypeScript", "TanStack Virtual", "Vitest"],
     status: null,
     github: "https://github.com/Natyraa/crate-explorer",
-    liveUrl: null,
+    liveUrl: "https://natyraa.github.io/crate-explorer/",
   },
   {
     id: 2,
@@ -24,18 +24,18 @@ export const data = [
     stack: ["React 19", "TypeScript", "A11y", "Vitest"],
     status: null,
     github: "https://github.com/Natyraa/component-lab",
-    liveUrl: null,
+    liveUrl: "https://natyraa.github.io/component-lab/",
   },
   {
     id: 3,
-    name: "LogicLab",
-    image: image3,
+    name: "Logic Lab",
+    image: logicLabImg,
     description:
-      "Puzzle game with clean state logic, custom hooks, and full Jest + React Testing Library coverage.",
-    stack: ["React", "Custom Hooks", "Jest", "RTL"],
-    status: "Planned",
-    github: null,
-    liveUrl: null,
+      "Lights Out puzzle with pure game logic, generic undo/redo hooks, difficulty levels, and 59 Jest + React Testing Library tests.",
+    stack: ["React", "TypeScript", "Custom Hooks", "Jest"],
+    status: null,
+    github: "https://github.com/Natyraa/logic-lab",
+    liveUrl: "https://natyraa.github.io/logic-lab/",
   },
   {
     id: 4,
@@ -46,6 +46,6 @@ export const data = [
     stack: ["Vanilla JS", "Vite", "Vitest", "localStorage"],
     status: null,
     github: "https://github.com/Natyraa/library-ledger",
-    liveUrl: null,
+    liveUrl: "https://natyraa.github.io/library-ledger/",
   },
 ];
